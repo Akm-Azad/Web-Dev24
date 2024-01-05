@@ -13,8 +13,9 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-align-items: center;
-margin: 0 200px;
+    align-items: center;
+    margin: 0 200px;
+    padding-top: 62px;
 }
 .nav-title{
     color:#181818;
@@ -44,6 +45,10 @@ nav a{
     font-weight: 700;
     padding: 18px 35px;
 }
+.button-primary:hover{
+    border-radius: 5px;
+    background: #916727;
+}
 /* header relatate  */
 .header{
 
@@ -53,7 +58,7 @@ nav a{
     background-position:bottom right;
 }
 .banner{
-    padding: 30px 30px 0 150px;
+    padding: 30px 30px 0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,4 +198,38 @@ margin-bottom: 30px;
 .download-cv{
     text-align: center;
     margin-top: 40px;
+}
+/* footer style  */
+footer{
+    background-color:#FFF8F3;
+    gap: 100px;
+    display: flex;
+    padding: 130px 200px;
+    margin-top: 100px;
+     
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="Email"] ,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.social-link a{
+     margin-right: 20px ;
+}
+.social-link a img:hover{
+    transform: scaleY(1.5);
+}
+.footer-column > .section-title{
+    text-align: left;
+}
+.footer-column > .section-description{
+    margin-bottom: 20px;
 }
